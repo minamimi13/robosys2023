@@ -3,14 +3,14 @@
 
 四則計算を行うためのソフトです。
 
-[![test](https://github.com/minamimi13/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/minamimi13/robosys2023/actions/workflows/test.yml)
+[![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml)
 
 ## インストール方法
 github
 
 ## コマンド
 ### ・plus
-![test](https://github.com/minamimi13/robosys2023/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)
 
 標準入力から読み込んだ数字を足す。
 
