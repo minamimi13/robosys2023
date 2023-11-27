@@ -10,10 +10,11 @@ github
 
 ## コマンド
 ### ・plus
-![test](https://github.com/minamimi13/robosys2023/actions/workflows/test.yml/badge.svg)
-
+![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)
 標準入力から読み込んだ数字を足す。
-      
+
+### ・minus
+
 
 ## 必要なソフトウェア(どんな環境で使えるか, OS/Pythonのバージョン/他に必要なソフトウェアやライブラリ)
 * Python
