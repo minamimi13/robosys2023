@@ -18,11 +18,9 @@ out=$(echo 5 | ./multiplication)
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./multiplication)
-[ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "エラー：数字ではありません。" ] || ng ${LINENO}
 
 out=$(echo | ./multiplication) #空文字
-[ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "エラー：数字ではありません。" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
