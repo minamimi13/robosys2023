@@ -1,8 +1,7 @@
 # robosys2023
 ロボットシステム学2023
 
-## はじめに
-
+## 目的
 このプログラムは四則計算を行うためのソフトです。
 
 [![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml)
@@ -21,12 +20,15 @@ githubがダウンロ―ドされている
 ## コマンド
 ### ・plus
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)
-
+~~~
 標準入力から読み込んだ数字を足す。
-
+~~~
 ### ・minus
+打ち込んだ二つの値の差分を計算する。
 
-標準出力から読み込んだ数字を足す。
+### ・multiplication
+
+標準出力から読み込んだ数字を掛け合わせる。
 
 ## 必要なソフトウェア(どんな環境で使えるか, OS/Pythonのバージョン/他に必要なソフトウェアやライブラリ)
 * Python
