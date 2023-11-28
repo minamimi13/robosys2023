@@ -1,4 +1,4 @@
-name: test
+name: test_plus
 on: push
 jobs:
   test:
@@ -8,5 +8,5 @@ jobs:
         python-version: ["3.7", "3.8", "3.9", "3.10"]
     steps:
     - uses: actions/checkout@v3
-    - name: All test
+    - name: Plus test
       run: bash -xv ./test_plus.bash
