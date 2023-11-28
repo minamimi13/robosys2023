@@ -9,6 +9,9 @@ for line in sys.stdin:
     try:
         ans *= int(line)
     except:
-        ans *= float(line)
-
+        try:
+            ans *= float(line)
+        except:
+            print("エラー：数字ではありません。")
+            exit()
 print (ans)
