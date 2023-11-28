@@ -6,7 +6,7 @@
 [![test](https://github.com/minamimi13/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/minamimi13/robosys2023/actions/workflows/test.yml)
 
 ## インストール方法
-github
+githubがインストールされているi
 
 ## コマンド
 ### ・plus
@@ -19,6 +19,7 @@ github
 
 ## 必要なソフトウェア(どんな環境で使えるか, OS/Pythonのバージョン/他に必要なソフトウェアやライブラリ)
 * Python
+  * Ubuntu-20.04
   * テスト済み：3.7~3.10
 ## テストの結果（後述）
 * Ubuntu
