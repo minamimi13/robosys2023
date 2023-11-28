@@ -14,7 +14,7 @@ out=$(seq 5 | ./multiplication)
 [ "${out}" = 120 ] || ng ${LINENO}
 
 out=$(echo 5 | ./multiplication)
-[ "${out}" = 5] || ng ${LINENO}
+[ "${out}" = 5 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./multiplication)
