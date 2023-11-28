@@ -3,8 +3,14 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 
-big = int(input("大きい方の数字："));
-small = int(input("小さい方の数字："));
-
-print(big - small) 
-
+try:
+    big = int(input("大きい方の数字："));
+    small = int(input("小さい方の数字："));
+except:
+    print("エラー：数字ではありません")
+    exit()
+    
+if(small > big):
+    print("エラー：小さい数の方が大きいので計算できません")
+else:
+    print(str(big) + " - " + str(small) + " = " + str(big - small)) 

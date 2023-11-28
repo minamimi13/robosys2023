@@ -15,15 +15,15 @@ minus() {
 res=0
 
 ### I/O ###
-out=$(seq 5 | ./plus)
+out=$(echo  | ./minus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./plus)
+out=$(echo あ | ./minus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./plus) #空文字
+out=$(echo | ./minus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
