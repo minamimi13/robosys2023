@@ -32,4 +32,4 @@ array = [
     "月の今日の運勢は名誉と表彰に見回られるでしょう\n"
 ]
 
-print( random.choice(array))
+print(str(a) + random.choice(array))
