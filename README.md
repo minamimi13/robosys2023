@@ -2,9 +2,11 @@
 ロボットシステム学2023
 
 ##はじめに
+
 このプログラムは四則計算を行うためのソフトです。
 
 [![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml)
+
 
 ##使用方法
 
