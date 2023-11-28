@@ -7,7 +7,7 @@ ng () {
       rest=1
 }
 
-res=1
+res=0
 
 ### I/O ###
 out=$(seq 5 | ./multiplication)
