@@ -10,19 +10,33 @@
 ## 使用方法
 
 ### ダウンロード方法
-githubがダウンロ―ドされている
-
-### インストールするもの
+githubがダウンロ―ドされているUbuntuのターミナル上で以下のコマンドを入力し実行します。
+~~~
+$ git clone git@github.com:minamimi13/robosys2023.git
+~~~
 
 ### 起動する手順
+以下のコマンドを入力することでそれぞれの計算コマンドがあるディレクトリに移動ることができます。
+~~~
+$ cd robosys2023
+$ vi plus //足し算のコマンドへ
+~~~
+~~~
+$ cd robosys2023
+$ vi minus //引き算のコマンドへ
+~~~
+~~~
+$ cd robosys2023
+$ vi multiplication //掛け算のコマンドへ
+~~~
 
 
 ## コマンド
 ### ・plus
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)
-~~~
+
 標準入力から読み込んだ数字を足す。
-~~~
+
 ### ・minus
 打ち込んだ二つの値の差分を計算する。
 
