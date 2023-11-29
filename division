@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Saori Kitami
+# SPDX-License-Identifier: BSD-3-Clause
+
+
+try:
+    one = int(input("1つ目の数字："));
+    two = int(input("2つ目の数字："));
+except:
+    print("エラー：数字ではありません")
+    exit()
+    
+if(one == two):
+    print("警告：計算結果が 1 になります")
+else:
+    print(str(one) + " ÷ " + str(two) + " = " + str(one / two)) 
