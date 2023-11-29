@@ -10,18 +10,16 @@ ng () {
 res=0
 
 ### I/O ###
-out=$( echo 誕生月を入力してください： | ./Uranai)
-[ "${out}" = 15 ] || ng ${LINENO}
+out=$( echo 4 誕生月を入力してください： | ./Uranai)
+[ "${out}" = 4月の今日の運勢は ] || ng ${LINENO}
 
-out=$(echo 5 | ./plus)
-[ "${out}" = 5 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
-out=$(echo あ | ./plus)
+out=$(echo あ | ./Uranai)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "エラー：数字ではありません" ] || ng ${LINENO}
 
-out=$(echo | ./plus) #空文字
+out=$(echo | ./Uranai) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "エラー：数字ではありません" ] || ng ${LINENO}
 
