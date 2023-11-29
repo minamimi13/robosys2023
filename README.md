@@ -8,7 +8,7 @@
 ## 使用方法
 
 ### ダウンロード方法
-githubがダウンロ―ドされているターミナル上で以下のコマンドを入力し実行します。
+githubがダウンロ―ドされているUbuntuのターミナル上で以下のコマンドを入力し実行します。
 ~~~
 $ git clone git@github.com:minamimi13/robosys2023.git
 $ cd robosys2023
@@ -92,12 +92,13 @@ $ ./Uranai
 ## 必要なソフトウェア(どんな環境で使えるか, OS/Pythonのバージョン/他に必要なソフトウェアやライブラリ)
 * Python
   * テスト済み：3.7~3.10
-  * Ubuntu-20.04
+  
+* Ubuntu-20.04
 
 
 ## 著作権・ライセンス
 
 <br><br>
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．[RyuichiUeda/my_slides/robosys_2022](https://github.com/RyuichiUeda/my_slides/tree/master/robosys_2022)
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．[ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 #### © 2023 Saori Kitami
