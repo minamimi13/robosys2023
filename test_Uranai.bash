@@ -11,7 +11,7 @@ res=0
 
 ### I/O ###
 out=$( echo 4 誕生月を入力してください： | ./Uranai)
-[ "${out}" = 4月の今日の運勢は ] || ng ${LINENO}
+[ "${out}" = 4月の今日の運勢は行動力の勝利です ] || ng ${LINENO}
 
 
 ### STRANGE INPUT ###
