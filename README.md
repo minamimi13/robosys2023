@@ -11,28 +11,24 @@
 githubがダウンロ―ドされているターミナル上で以下のコマンドを入力し実行します。
 ~~~
 $ git clone git@github.com:minamimi13/robosys2023.git
+$ cd robosys2023
 ~~~
 
 ### 起動する手順
-以下のコマンドを入力することでそれぞれの計算コマンドがあるディレクトリに移動することができます。
+以下のコマンドを入力することでそれぞれの計算と占いコマンドがあるディレクトリに移動することができます。
 ~~~
-$ cd robosys2023
 $ vi plus //足し算のコマンドへ
 ~~~
 ~~~
-$ cd robosys2023
 $ vi minus //引き算のコマンドへ
 ~~~
 ~~~
-$ cd robosys2023
 $ vi multiplication //掛け算のコマンドへ
 ~~~
 ~~~
-$ cd robosys2023
 $ vi division //割り算のコマンドへ
 ~~~
 ~~~
-$ cd robosys2023
 $ vi Uranai //占いのコマンドへ
 ~~~
 
