@@ -1,16 +1,14 @@
 # robosys2023
-ロボットシステム学2023
+####ロボットシステム学2023
 
 ## 目的
 このプログラムは四則計算と誕生月を入力すると今日の運勢を占ってくれるためのソフトです。
-
-[![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml)
 
 
 ## 使用方法
 
 ### ダウンロード方法
-githubがダウンロ―ドされているUbuntuのターミナル上で以下のコマンドを入力し実行します。
+githubがダウンロ―ドされているターミナル上で以下のコマンドを入力し実行します。
 ~~~
 $ git clone git@github.com:minamimi13/robosys2023.git
 ~~~
