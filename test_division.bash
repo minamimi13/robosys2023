@@ -9,7 +9,7 @@ ng () {
 
 division() {
     local value=$1
-    res=$((res / value))
+    res=$((res - value))
 }
 
 res=0
