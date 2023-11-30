@@ -8,7 +8,7 @@
 ## 使用方法
 
 ### ダウンロード方法
-githubがダウンロ―ドされているUbuntuのターミナル上で以下のコマンドを入力し実行します。
+以下のコマンドを入力して実行します。
 ~~~
 $ git clone git@github.com:minamimi13/robosys2023.git
 $ cd robosys2023
