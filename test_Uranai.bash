@@ -13,6 +13,9 @@ res=0
 out=$(echo -e "4" | ./Uranai)
 [ "${out}" = 4月の今日の運勢は行動力の勝利です ] || ng ${LINENO}
 
+out=$(echo -e "13" | ./Uranai)
+[ "${out}" = 存在しない月です ] || ng ${LINENO}
+
 ### STRANGE INPUT ###
 out=$(echo あ | ./Uranai)
 [ "$?" = 1 ]      || ng ${LINENO}
