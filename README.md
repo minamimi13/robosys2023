@@ -43,7 +43,7 @@ $ ./minus
 ### ・multiplication
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_multiplication.yml/badge.svg)
 
-標準出力から読み込んだ数字を掛け合わせます。
+標準入力から読み込んだ数字を掛け合わせます。
 
 実行例は以下のようになります。
 ~~~
@@ -64,6 +64,19 @@ $ ./division
 9 ÷ 3 = 3
 ~~~
 
+### ・beki
+![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_beki.yml/badge.svg)
+
+打ち込んだ底の数と指数の数からべき乗計算をします。
+
+実行例は以下のようになります。
+~~~
+$ ./beki
+底(1～10の間の整数で)：5
+指数(1～10の間の整数で)：2
+5 ^ 2 = 25
+~~~
+
 ### ・Uranai
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_Uranai.yml/badge.svg)
 
@@ -75,6 +88,7 @@ $ ./Uranai
 誕生月を入力してください：4
 4月の今日の運勢は行動力の勝利です
 ~~~
+
 
 ## 必要なソフトウェア
 * Python

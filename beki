@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Saori Kitami
+# SPDX-License-Identifier: BSD-3-Clause
+
+
+try:
+    a = int(input("底(1～10の間の整数で)："));
+    b = int(input("指数(1～10の間の整数で)："));
+except:
+    print("エラー：数字ではないか、もしくは入力した値が負の数や少数になっています")
+    exit()
+    
+if(a > 10, -1 > a):
+    print("エラー：数が大きすぎてしまうか、値が複雑になる可能性があるので表示できません")
+    
+elif(b > 10, -1 > b):
+    print("エラー：数が大きすぎてしまうか、値が複雑になる可能性があるので表示できません")
+
+else:
+    print(str(a) + " ^ " + str(b) + " = " + str(a ** b)) 
