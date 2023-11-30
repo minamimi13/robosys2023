@@ -12,5 +12,7 @@ except:
     
 if(one == two):
     print("警告：計算結果が 1 になります")
+else if(one == 0, two == 0):
+    print(‪︎︎＂︎︎警告：割れません︎︎＂︎︎)
 else:
     print(str(one) + " ÷ " + str(two) + " = " + str(one / two)) 
