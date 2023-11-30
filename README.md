@@ -14,25 +14,6 @@ $ git clone git@github.com:minamimi13/robosys2023.git
 $ cd robosys2023
 ~~~
 
-### 起動する手順
-以下のコマンドを入力することでそれぞれの計算と占いコマンドがあるディレクトリに移動することができます。
-~~~
-$ vi plus //足し算のコマンドへ
-~~~
-~~~
-$ vi minus //引き算のコマンドへ
-~~~
-~~~
-$ vi multiplication //掛け算のコマンドへ
-~~~
-~~~
-$ vi division //割り算のコマンドへ
-~~~
-~~~
-$ vi Uranai //占いのコマンドへ
-~~~
-
-
 ## コマンドと実行例
 ### ・plus
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)
