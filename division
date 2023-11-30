@@ -14,4 +14,6 @@ if(one == two):
     print("警告：計算結果が 1 になります")
 
 else:
-    print(str(one) + " ÷ " + str(two) + " = " + str(one / two)) 
+    print(str(one) + " ÷ " + str(two) + " = " + str(one / two))
+
+
