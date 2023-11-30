@@ -5,13 +5,13 @@
 import random
 
 try:
-    a = int(input("誕生月を入力してください："))
+    a = int(input("誕生月(1以上)を入力してください："))
     
 except:
     print("数字ではありません")
     exit()
     
-if(a > 12, a == 0):
+if(a > 12):
     print("存在しない月です")
     exit()
 

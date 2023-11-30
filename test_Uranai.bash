@@ -10,9 +10,8 @@ ng () {
 res=0
 
 ### I/O ###
-out=$( echo 4 誕生月を入力してください： | ./Uranai)
+out=$(echo -e "4" | ./Uranai)
 [ "${out}" = 4月の今日の運勢は行動力の勝利です ] || ng ${LINENO}
-
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./Uranai)
