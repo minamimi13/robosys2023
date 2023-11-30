@@ -15,10 +15,7 @@ $ git clone git@github.com:minamimi13/robosys2023.git
 $ cd robosys2023
 ~~~
 
-<<<<<<< HEAD
-=======
 
->>>>>>> lesson10
 ## コマンドと実行例
 ### ・plus
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_plus.yml/badge.svg)
@@ -30,6 +27,7 @@ $ cd robosys2023
 $ seq 5 | ./plus
 15
 ~~~
+
 ### ・minus
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_minus.yml/badge.svg)
 
@@ -42,6 +40,7 @@ $ ./minus
 小さい方の数字：3
 5 - 3 = 2
 ~~~
+
 ### ・multiplication
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_multiplication.yml/badge.svg)
 
@@ -52,6 +51,7 @@ $ ./minus
 $ seq 5 | ./multiplication
 120
 ~~~
+
 ### ・division
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_division.yml/badge.svg)
 
@@ -64,6 +64,7 @@ $ ./division
 2つ目の数字：3
 9 ÷ 3 = 3
 ~~~
+
 ### ・Uranai
 ![test](https://github.com/minamimi13/robosys2023/actions/workflows/test_Uranai.yml/badge.svg)
 
@@ -75,7 +76,8 @@ $ ./Uranai
 誕生月を入力してください：4
 4月の今日の運勢は行動力の勝利です
 ~~~
-## 必要なソフトウェア(どんな環境で使えるか, OS/Pythonのバージョン/他に必要なソフトウェアやライブラリ)
+
+## 必要なソフトウェア
 * Python
   * テスト済み：3.7~3.10
   
